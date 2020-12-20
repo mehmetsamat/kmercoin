@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="D:\pf\lazarus\fpc\3.2.0\bin\x86_64-win64\fpc.exe" Date="1357350767"/>
+  <Params Value=" -MObjFPC -Scghi -O2 -l -vewnhibq -FiD:\pf\PascalLite-1.4.5\lib\x86_64-win64 -FuD:\pf\PascalLite-1.4.5\Units\PascalCoin -FuD:\pf\PascalLite-1.4.5\PasOpenCL -FuD:\pf\PascalLite-1.4.5\Units\Utils -FuD:\pf\PascalLite-1.4.5\Synapse\lib -FuD:\pf\PascalLite-1.4.5\ -FUD:\pf\PascalLite-1.4.5\lib\x86_64-win64\ -FED:\pf\PascalLite-1.4.5\ -oD:\pf\PascalLite-1.4.5\PascalCoinMiner.exe PascalCoinMiner.pp"/>
+</CONFIG>

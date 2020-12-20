@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="20">
+      <Unit0>
+        <Filename Value="pascalcoin_daemon.pp"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos X="10" Y="21"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="C:\lazarus\fpc\3.0.0\source\packages\fcl-extra\src\daemonapp.pp"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="Units\PascalCoin\upcdaemon.pas"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="185"/>
+        <CursorPos X="20" Y="200"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="Units\PascalCoin\UNetProtocol.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1363"/>
+        <CursorPos X="11" Y="1384"/>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="Units\PascalCoin\UPoolMining.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="74"/>
+        <CursorPos X="3" Y="83"/>
+        <UsageCount Value="9"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="Units\PascalCoin\UAccounts.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="266"/>
+        <CursorPos X="47" Y="280"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Units\PascalCoin\UThread.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="3" Y="33"/>
+        <UsageCount Value="9"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="C:\lazarus\fpc\3.0.0\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1632"/>
+        <CursorPos Y="1646"/>
+        <UsageCount Value="9"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Units\PascalCoin\UConst.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="42"/>
+        <CursorPos X="22" Y="77"/>
+        <UsageCount Value="9"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Units\PascalCoin\UWalletKeys.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="91"/>
+        <CursorPos X="35" Y="102"/>
+        <UsageCount Value="9"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="Units\PascalCoin\ULog.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="8"/>
+        <CursorPos X="133" Y="29"/>
+        <UsageCount Value="9"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="Units\PascalCoin\UOpenSSL.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="191"/>
+        <CursorPos X="22" Y="214"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="Units\PascalCoin\UTCPIP.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="145"/>
+        <CursorPos X="15" Y="161"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\lazarus\fpc\3.2.0\source\packages\fcl-extra\src\daemonapp.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="88" Y="30"/>
+        <UsageCount Value="9"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="Units\PascalCoin\UCrypto.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="57"/>
+        <CursorPos X="21" Y="79"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="..\lazarus\fpc\3.2.0\source\packages\fcl-base\src\custapp.pp"/>
+        <UnitName Value="CustApp"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="36" Y="54"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="Units\Utils\UJSONFunctions.pas"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="124"/>
+        <CursorPos X="60" Y="25"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\lazarus\fpc\3.2.0\source\rtl\objpas\classes\classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="929"/>
+        <CursorPos X="14" Y="950"/>
+        <UsageCount Value="9"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:\Users\yaz\AppData\Roaming\PascalLite\Data\BlockChainStream.blocks"/>
+        <EditorIndex Value="6"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="Units\PascalCoin\UFileStorage.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="5"/>
+        <CursorPos X="23" Y="15"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit19>
+    </Units>
+    <JumpHistory Count="11" HistoryIndex="10">
+      <Position1>
+        <Filename Value="pascalcoin_daemon.pp"/>
+        <Caret Line="18" Column="14"/>
+      </Position1>
+      <Position2>
+        <Filename Value="pascalcoin_daemon.pp"/>
+        <Caret Line="18" Column="14"/>
+      </Position2>
+      <Position3>
+        <Filename Value="pascalcoin_daemon.pp"/>
+        <Caret Line="21" Column="10"/>
+      </Position3>
+      <Position4>
+        <Filename Value="Units\PascalCoin\upcdaemon.pas"/>
+        <Caret Line="200" Column="20" TopLine="185"/>
+      </Position4>
+      <Position5>
+        <Filename Value="Units\PascalCoin\UFileStorage.pas"/>
+        <Caret Line="186" Column="32" TopLine="151"/>
+      </Position5>
+      <Position6>
+        <Filename Value="Units\PascalCoin\UFileStorage.pas"/>
+        <Caret Line="211" Column="33" TopLine="184"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Units\PascalCoin\UFileStorage.pas"/>
+        <Caret Line="224" Column="21" TopLine="197"/>
+      </Position7>
+      <Position8>
+        <Filename Value="Units\PascalCoin\UFileStorage.pas"/>
+        <Caret Line="47" Column="29" TopLine="26"/>
+      </Position8>
+      <Position9>
+        <Filename Value="C:\Users\yaz\AppData\Roaming\PascalLite\Data\BlockChainStream.blocks"/>
+        <Caret Column="62"/>
+      </Position9>
+      <Position10>
+        <Filename Value="C:\Users\yaz\AppData\Roaming\PascalLite\Data\BlockChainStream.blocks"/>
+        <Caret Line="2" Column="6"/>
+      </Position10>
+      <Position11>
+        <Filename Value="Units\PascalCoin\UFileStorage.pas"/>
+        <Caret Line="81" Column="6" TopLine="49"/>
+      </Position11>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
