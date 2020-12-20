@@ -223,10 +223,10 @@ Const
   CT_BlockAccount_NUL : TBlockAccount = (
     blockaccount:0;
     accounts:(
+  {  (account:0;accountkey:(EC_OpenSSL_NID:0;x:'';y:'');balance:0;updated_block:0;n_operation:0;previous_updated_block:0),
     (account:0;accountkey:(EC_OpenSSL_NID:0;x:'';y:'');balance:0;updated_block:0;n_operation:0;previous_updated_block:0),
     (account:0;accountkey:(EC_OpenSSL_NID:0;x:'';y:'');balance:0;updated_block:0;n_operation:0;previous_updated_block:0),
-    (account:0;accountkey:(EC_OpenSSL_NID:0;x:'';y:'');balance:0;updated_block:0;n_operation:0;previous_updated_block:0),
-    (account:0;accountkey:(EC_OpenSSL_NID:0;x:'';y:'');balance:0;updated_block:0;n_operation:0;previous_updated_block:0),
+    (account:0;accountkey:(EC_OpenSSL_NID:0;x:'';y:'');balance:0;updated_block:0;n_operation:0;previous_updated_block:0),  }
     (account:0;accountkey:(EC_OpenSSL_NID:0;x:'';y:'');balance:0;updated_block:0;n_operation:0;previous_updated_block:0)
     );
     timestamp:0;

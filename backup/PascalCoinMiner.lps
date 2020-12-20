@@ -9,8 +9,8 @@
         <Filename Value="PascalCoinMiner.pp"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="246"/>
-        <CursorPos Y="267"/>
+        <TopLine Value="127"/>
+        <CursorPos X="17" Y="144"/>
         <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -67,7 +67,8 @@
       <Unit9>
         <Filename Value="Units\PascalCoin\UConst.pas"/>
         <EditorIndex Value="16"/>
-        <CursorPos X="63" Y="31"/>
+        <TopLine Value="31"/>
+        <CursorPos X="93" Y="66"/>
         <UsageCount Value="11"/>
         <Loaded Value="True"/>
       </Unit9>
@@ -117,7 +118,7 @@
         <Loaded Value="True"/>
       </Unit16>
     </Units>
-    <JumpHistory Count="2" HistoryIndex="1">
+    <JumpHistory Count="3" HistoryIndex="2">
       <Position1>
         <Filename Value="PascalCoinMiner.pp"/>
         <Caret Line="255" Column="63"/>
@@ -126,6 +127,10 @@
         <Filename Value="Units\PascalCoin\UConst.pas"/>
         <Caret Line="31" Column="63"/>
       </Position2>
+      <Position3>
+        <Filename Value="PascalCoinMiner.pp"/>
+        <Caret Line="259" Column="46" TopLine="161"/>
+      </Position3>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

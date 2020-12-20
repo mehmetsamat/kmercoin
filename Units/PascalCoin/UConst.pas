@@ -33,7 +33,7 @@ type
 Const
   CT_Genesis_Magic_String_For_Old_Block_Hash :
     AnsiString =
-    'February 1 2017 - CNN - Trump puts on a flawless show in picking Gorsuch for Supreme Court ';
+    ' 20 12 2020 PAZAR  - HABER 7 - Kısıtlamanın üçüncü haftasında Eminönü Meydanı sessizliğe büründü ';
 
   CT_Zero_Block_Proof_of_work_in_Hexa =
    //     {$IFDEF PRODUCTION}'000000000EAE7A91B748C735A5338A11715D815101E0C075F7C60FA52B769EC7'{$ELSE}{$IFDEF TESTNET}''{$ELSE}{$ENDIF}{$ENDIF};
@@ -43,7 +43,7 @@ Const
   CT_NetServer_Port = {$IFDEF PRODUCTION}4004{$ELSE}{$IFDEF TESTNET}4104{$ELSE}{$ENDIF}{$ENDIF};
   CT_JSONRPCMinerServer_Port = {$IFDEF PRODUCTION}4009{$ELSE}{$IFDEF TESTNET}4109{$ELSE}{$ENDIF}{$ENDIF};
   CT_JSONRPC_Port = {$IFDEF PRODUCTION}4003{$ELSE}{$IFDEF TESTNET}4103{$ELSE}{$ENDIF}{$ENDIF};
-  CT_AccountsPerBlock = 5;
+  CT_AccountsPerBlock = 1;
 
   CT_NewLineSecondsAvg: Cardinal = {$IFDEF PRODUCTION}300{$ELSE}{$IFDEF TESTNET}30{$ELSE}{$ENDIF}{$ENDIF};
     // 60*5=300 seconds -> 5 minutes avg
@@ -51,11 +51,11 @@ Const
     //   Each year = 105120 new blocks (aprox)
     //   -> *5 accounts per block = 525600 new accounts each year (aprox)
 
-  CT_FirstReward: UInt64 = 500000; // 4 decimals... First reward = 50,0000
-  CT_MinReward: UInt64 = 10000; // 4 decimals... Min reward = 1,0000
-  CT_NewLineRewardDecrease: Cardinal = 420480; // Avg 4 year
+  CT_FirstReward: UInt64 = 10000000000; // 4 decimals... First reward = 50,0000
+  CT_MinReward: UInt64 = 0; // 4 decimals... Min reward = 1,0000
+  CT_NewLineRewardDecrease: Cardinal = 1; // Avg 4 year
 
-  CT_WaitNewBlocksBeforeTransaction = 100;
+  CT_WaitNewBlocksBeforeTransaction = 10;
 
   CT_RecoverFoundsWaitInactiveCount = 420480;  // After 4 years... if an account has no operations, money will be a reward for a miner!
 
@@ -63,7 +63,7 @@ Const
   CT_MaxTransactionFee = 100000000;
   CT_MaxWalletAmount = 10000000000000;
   //
-  CT_MinCompactTarget: Cardinal = {$IFDEF PRODUCTION}$19000000{$ELSE}{$IFDEF TESTNET}$17000000{$ELSE}{$ENDIF}{$ENDIF}; // First compact target of block 0
+  CT_MinCompactTarget: Cardinal = {$IFDEF PRODUCTION}$13000000{$ELSE}{$IFDEF TESTNET}$17000000{$ELSE}{$ENDIF}{$ENDIF}; // First compact target of block 0
 
   CT_CalcNewTargetBlocksAverage: Cardinal = 100;
   CT_MaxAccount : Cardinal = $FFFFFFFF;
@@ -106,7 +106,7 @@ Const
 
   CT_ClientAppVersion : AnsiString = {$IFDEF PRODUCTION}'1.4.3'{$ELSE}{$IFDEF TESTNET}'TESTNET'{$ELSE}{$ENDIF}{$ENDIF};
 
-  CT_Discover_IPs =  'pascallite.ddns.net;pascallite2.ddns.net;pascallite3.ddns.net;pascallite.dynamic-dns.net;pascallite2.dynamic-dns.net;pascallite3.dynamic-dns.net';
+  CT_Discover_IPs =  'borcvar9.duckdns.org,borcvar44.duckdns.org,borcvar99.duckdns.org,borcvar.duckdns.org';
 
   CT_TRUE_FALSE : Array[Boolean] Of AnsiString = ('FALSE','TRUE');
 

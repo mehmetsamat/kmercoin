@@ -60,7 +60,7 @@ Const
   CT_Line_ConnectionStatus = 4;
   CT_Line_MinerValues = 7;
   CT_Line_MiningStatus = 10;
-  CT_Line_LastFound = 0;       //sil 12
+  CT_Line_LastFound = 12;
   CT_Line_Logs = 15;
   CT_MaxLogs = 10;
   CT_OpenCL_FileName = 'pascalsha.cl';

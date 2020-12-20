@@ -19,8 +19,8 @@
       </Unit1>
       <Unit2>
         <Filename Value="Units\PascalCoin\upcdaemon.pas"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
         <TopLine Value="43"/>
         <CursorPos X="163" Y="86"/>
         <UsageCount Value="13"/>
@@ -62,10 +62,11 @@
       </Unit7>
       <Unit8>
         <Filename Value="Units\PascalCoin\UConst.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="42"/>
-        <CursorPos X="22" Y="77"/>
-        <UsageCount Value="9"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="43"/>
+        <CursorPos X="56" Y="66"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
       </Unit8>
       <Unit9>
         <Filename Value="Units\PascalCoin\UWalletKeys.pas"/>
@@ -96,7 +97,7 @@
         <UsageCount Value="9"/>
       </Unit12>
       <Unit13>
-        <Filename Value="..\lazarus\fpc\3.2.0\source\packages\fcl-extra\src\daemonapp.pp"/>
+        <Filename Value="D:\lazarus\fpc\3.2.0\source\packages\fcl-extra\src\daemonapp.pp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="20"/>
         <CursorPos X="88" Y="30"/>
@@ -110,7 +111,7 @@
         <UsageCount Value="13"/>
       </Unit14>
       <Unit15>
-        <Filename Value="..\lazarus\fpc\3.2.0\source\packages\fcl-base\src\custapp.pp"/>
+        <Filename Value="D:\lazarus\fpc\3.2.0\source\packages\fcl-base\src\custapp.pp"/>
         <UnitName Value="CustApp"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="7"/>
@@ -125,7 +126,7 @@
         <UsageCount Value="13"/>
       </Unit16>
       <Unit17>
-        <Filename Value="..\lazarus\fpc\3.2.0\source\rtl\objpas\classes\classesh.inc"/>
+        <Filename Value="D:\lazarus\fpc\3.2.0\source\rtl\objpas\classes\classesh.inc"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="929"/>
         <CursorPos X="14" Y="950"/>
@@ -146,9 +147,6 @@
         <UsageCount Value="13"/>
       </Unit19>
     </Units>
-    <General>
-      <ActiveWindowIndexAtStart Value="-1"/>
-    </General>
     <JumpHistory HistoryIndex="-1"/>
     <RunParams>
       <FormatVersion Value="2"/>

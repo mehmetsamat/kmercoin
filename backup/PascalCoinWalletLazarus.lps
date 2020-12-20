@@ -8,7 +8,6 @@
       <Unit0>
         <Filename Value="PascalCoinWalletLazarus.dpr"/>
         <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
         <CursorPos X="62" Y="44"/>
         <UsageCount Value="40"/>
         <Loaded Value="True"/>
@@ -57,17 +56,22 @@
       <Unit7>
         <Filename Value="Units\PascalCoin\UAccounts.pas"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="198"/>
+        <CursorPos X="125" Y="229"/>
         <UsageCount Value="40"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit7>
       <Unit8>
         <Filename Value="Units\PascalCoin\UConst.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="92"/>
-        <CursorPos X="95" Y="101"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="50"/>
+        <CursorPos X="57" Y="66"/>
         <UsageCount Value="40"/>
+        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit8>
       <Unit9>
@@ -367,7 +371,12 @@
         <DefaultSyntaxHighlighter Value="LFM"/>
       </Unit45>
     </Units>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="Units\PascalCoin\UConst.pas"/>
+        <Caret Line="66" Column="57" TopLine="50"/>
+      </Position1>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode="default"/>

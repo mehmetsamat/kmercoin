@@ -141,6 +141,7 @@ procedure TPascalMinerApp.OnFoundNOnce(Sender: TCustomMinerDeviceThread; Timesta
 begin
   WriteLine(CT_Line_LastFound + FDeviceThreads.Count,FormatDateTime('hh:nn:ss',now)+' Block:'+IntToStr(Sender.MinerValuesForWork.block)+' NOnce:'+Inttostr(nOnce)+
     ' Timestamp:'+inttostr(Timestamp)+' Miner:'+Sender.MinerValuesForWork.payload_start);
+    sleep(3000);
 end;
 
 procedure TPascalMinerApp.WriteLine(nline: Integer; txt: String);
@@ -203,6 +204,7 @@ var
     Result := false;
     if (Not HasOption('p','platform')) And (Not HasOption('d','device')) And (Not HasOption('c','cpu:')) then begin
       Writeln('Need to specify -p X and -d Y for GPU mining or -c N for CPU mining. See -h for more info');
+        sleep(1000);
       ShowGPUDrivers;
       Terminate;
       Exit;
@@ -290,6 +292,7 @@ var
             gs := devt.GlobalDeviceStats;
             If ms.RoundsCount>0 then begin
               s := FormatDateTime('hh:nn:ss',now)+Format(' Miner:"%s" at %0.2f MH/s - Rounds: %0.2f G Found: %d',[devt.MinerValuesForWork.payload_start,hrHashing, gs.RoundsCount/1000000000, gs.WinsCount]);
+                sleep(3000);
               If (gs.Invalids>0) then s := s +' '+inttostr(gs.Invalids)+' ERRORS!';
               WriteLine(CT_Line_MiningStatus+i,s);
             end else begin
@@ -317,8 +320,8 @@ var
           end else begin
             WriteLog('Not mining... check connection or paused state...');
           end; }
-          WriteLine(CT_Line_LastFound+FDeviceThreads.Count-1,'MY VALID BLOCKS FOUND: '+IntToStr(gs.WinsCount) +' Working time: '+IntToStr(Trunc(now - FAppStartTime))+'d '+FormatDateTime('hh:nn:ss',Now-FAppStartTime) );
-              sleep(10000);      //sil
+          WriteLine(CT_Line_LastFound+FDeviceThreads.Count-1,'300_MY VALID BLOCKS FOUND: '+IntToStr(gs.WinsCount) +' Working time: '+IntToStr(Trunc(now - FAppStartTime))+'d '+FormatDateTime('hh:nn:ss',Now-FAppStartTime) );
+              sleep(3000);      //sil
         end;
         If KeyPressed then begin
           If ReadKey in ['c','C','q','Q'] then begin
