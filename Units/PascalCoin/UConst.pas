@@ -51,7 +51,7 @@ Const
     //   Each year = 105120 new blocks (aprox)
     //   -> *5 accounts per block = 525600 new accounts each year (aprox)
 
-  CT_FirstReward: UInt64 = 10000000000; // 4 decimals... First reward = 50,0000
+  CT_FirstReward: UInt64 = 7000000; // 4 decimals... First reward = 50,0000
   CT_MinReward: UInt64 = 0; // 4 decimals... Min reward = 1,0000
   CT_NewLineRewardDecrease: Cardinal = 1; // Avg 4 year
 
