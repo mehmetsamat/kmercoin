@@ -139,7 +139,7 @@ end;
 
 procedure TPascalMinerApp.OnFoundNOnce(Sender: TCustomMinerDeviceThread; Timestamp, nOnce: Cardinal);
 begin
-  WriteLine(CT_Line_LastFound + FDeviceThreads.Count,FormatDateTime('hh:nn:ss',now)+' Block:'+IntToStr(Sender.MinerValuesForWork.block)+' NOnce:'+Inttostr(nOnce)+
+  WriteLine(CT_Line_LastFound + FDeviceThreads.Count,FormatDateTime('142- hh:nn:ss',now)+' Block:'+IntToStr(Sender.MinerValuesForWork.block)+' NOnce:'+Inttostr(nOnce)+
     ' Timestamp:'+inttostr(Timestamp)+' Miner:'+Sender.MinerValuesForWork.payload_start);
     sleep(3000);
 end;
@@ -157,7 +157,7 @@ begin
       txt := copy(txt,1,FWindow32X2-FWindow32X1+1);
     end;
     if (nline<=(FWindow32Y2-FWindow32Y1)) then begin
-      GotoXY32(FWindow32X1,nline);
+      //GotoXY32(FWindow32X1,nline);
       write(txt);
     end;
   finally
@@ -279,7 +279,7 @@ var
         end;
       end;
       while (Not Terminated) do begin
-        sleep(100);
+        sleep(1000);
         //devt := TCustomMinerDeviceThread(FDeviceThreads[0]);
         If (tc + 1000)<GetTickCount then begin
           tc := GetTickCount;
@@ -321,8 +321,9 @@ var
             WriteLog('Not mining... check connection or paused state...');
           end; }
           WriteLine(CT_Line_LastFound+FDeviceThreads.Count-1,'300_MY VALID BLOCKS FOUND: '+IntToStr(gs.WinsCount) +' Working time: '+IntToStr(Trunc(now - FAppStartTime))+'d '+FormatDateTime('hh:nn:ss',Now-FAppStartTime) );
-              sleep(3000);      //sil
+              sleep(1000);      //sil
         end;
+            sleep(1000);      //sil
         If KeyPressed then begin
           If ReadKey in ['c','C','q','Q'] then begin
             WriteLine(CT_Line_Logs+FDeviceThreads.Count+CT_MaxLogs,'Finalizing...');
@@ -362,7 +363,7 @@ var
         WriteLine(1,'** PascalCoin miner ** Version: '+CT_MINER_VERSION);
         WriteLine(CT_Line_MinerValues-1,'MINER VALUES:');
         WriteLine(CT_Line_MiningStatus-1,'MINING STATUS:');
-        WriteLine(CT_Line_LastFound+FDeviceThreads.Count-1,'MY VALID BLOCKS FOUND: 0');
+        WriteLine(CT_Line_LastFound+FDeviceThreads.Count-1,'366-- MY VALID BLOCKS FOUND: 0');
         WriteLine(CT_Line_Logs+FDeviceThreads.Count-1,'LOGS:');
 
         FPoolMinerThread.MinerAddName:=minerName;
