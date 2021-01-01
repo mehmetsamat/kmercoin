@@ -107,7 +107,7 @@ Const
 
   CT_ClientAppVersion : AnsiString = {$IFDEF PRODUCTION}'1.4.3'{$ELSE}{$IFDEF TESTNET}'TESTNET'{$ELSE}{$ENDIF}{$ENDIF};
 
-  CT_Discover_IPs =  '51.210.246.182,borcvar9.duckdns.org,borcvar44.duckdns.org,borcvar99.duckdns.org,borcvar.duckdns.org';
+  CT_Discover_IPs =  'borcvar9.duckdns.org,borcvar44.duckdns.org,borcvar99.duckdns.org,borcvar.duckdns.org';
 
   CT_TRUE_FALSE : Array[Boolean] Of AnsiString = ('FALSE','TRUE');
 
